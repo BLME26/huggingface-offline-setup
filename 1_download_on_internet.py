@@ -10,7 +10,7 @@ import subprocess
 from pathlib import Path
 
 # Configuration
-MODEL_NAME = "distilbert-base-uncased"
+MODEL_NAME = "gpt2"  # Changed from distilbert to gpt2 (text generation model)
 OUTPUT_DIR = Path(__file__).parent
 
 MODELS_DIR = OUTPUT_DIR / "models"
